@@ -1,0 +1,2 @@
+rootProject.name='Week_9_My_Personal_Note_Firebase'
+include ':app'
