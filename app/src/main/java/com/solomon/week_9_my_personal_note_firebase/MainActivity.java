@@ -38,20 +38,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.signUpTextView).setOnClickListener(this);
         findViewById(R.id.loginButton).setOnClickListener(this);
 
-        //ListView myListView = findViewById(R.id.listView);
-
-        ArrayList<String> myFriends = new ArrayList<>();
-        myFriends.add("Thompson");
-        myFriends.add("Pedro");
-        myFriends.add("Victoria");
-        myFriends.add("Anslem");
-        myFriends.add("Aisha");
-        myFriends.add("Solomon");
-        myFriends.add("Trump");
-
-
-        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, myFriends);
-        //myListView.setAdapter(arrayAdapter);
     }
 
     private void userLogin() {
